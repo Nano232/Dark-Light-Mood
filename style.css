@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primry-color);
+}
+
+:root {
+  --primry-color: white;
+  --secondary-color: black;
+}
+
+.dark-theme {
+  --primry-color: black;
+  --secondary-color: white;
+}
+
+.container {
+  margin: 20px 0;
+  padding: 0 20px;
+  font-weight: bold;
+}
+.container .content {
+  margin: 0 100px;
+}
+.container .content nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .content nav h1 {
+  color: var(--secondary-color);
+}
+.container .content nav ul {
+  display: flex;
+  cursor: pointer;
+}
+.container .content nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  color: var(--secondary-color);
+}
+.container .content nav ul span {
+  color: var(--secondary-color);
+  cursor: pointer;
+  margin-left: 30px;
+}
+.container .content .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.container .content .parent .one {
+  width: 50%;
+}
+.container .content .parent .one h2 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.container .content .parent .one p {
+  margin: 20px 0;
+  color: var(--secondary-color);
+}
+.container .content .parent .one button {
+  background-color: var(--secondary-color);
+  color: var(--primry-color);
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+.container .content .parent .two {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content .parent .two img {
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
